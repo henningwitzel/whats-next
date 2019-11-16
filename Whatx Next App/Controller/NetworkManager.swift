@@ -1,8 +1,8 @@
 //
 //  NetworkManager.swift
-//  Whats Next
+//  Whatx Next App
 //
-//  Created by Henning Witzel on 10.11.19.
+//  Created by Henning Witzel on 16.11.19.
 //  Copyright © 2019 Henning Witzel. All rights reserved.
 //
 

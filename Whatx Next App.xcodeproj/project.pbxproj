@@ -129,10 +129,6 @@
 		2E8ACBD723805BDB00790FA8 = {
 			isa = PBXGroup;
 			children = (
-				2EFBDD8D23808A5500F3CAA0 /* SettingsView.swift */,
-				2EFBDD5C238060AD00F3CAA0 /* View */,
-				2EFBDD5B238060A400F3CAA0 /* Model */,
-				2EFBDD582380603A00F3CAA0 /* Controller */,
 				2E8ACBE223805BDC00790FA8 /* Whatx Next App */,
 				2E8ACBF923805BDD00790FA8 /* Whatx Next AppTests */,
 				2E8ACC0423805BDD00790FA8 /* Whatx Next AppUITests */,
@@ -153,6 +149,9 @@
 		2E8ACBE223805BDC00790FA8 /* Whatx Next App */ = {
 			isa = PBXGroup;
 			children = (
+				2EFBDD5C238060AD00F3CAA0 /* View */,
+				2EFBDD5B238060A400F3CAA0 /* Model */,
+				2EFBDD582380603A00F3CAA0 /* Controller */,
 				2E8ACBE323805BDC00790FA8 /* AppDelegate.swift */,
 				2E8ACBE523805BDC00790FA8 /* SceneDelegate.swift */,
 				2E8ACBE723805BDC00790FA8 /* ContentView.swift */,
@@ -220,6 +219,7 @@
 				2EFBDD7D238064B300F3CAA0 /* MoreView.swift */,
 				2EFBDD852380694D00F3CAA0 /* AboutView.swift */,
 				2EFBDD8923806BD600F3CAA0 /* FormTestView.swift */,
+				2EFBDD8D23808A5500F3CAA0 /* SettingsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";

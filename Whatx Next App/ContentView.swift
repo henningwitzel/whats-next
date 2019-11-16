@@ -12,7 +12,7 @@ import Combine
 struct ContentView: View {
    
     @State private var selection = 0
-    @ObservedObject var networkManager: NetworkManager = NetworkManager()
+    @ObservedObject var networkManager : NetworkManager = NetworkManager()
     
     var body: some View {
         
@@ -58,7 +58,7 @@ struct ContentView: View {
                     }
                     
                     NavigationLink(destination: TVShowsListView())
-                    {
+                    {                        
                         CardView(image: "netflix", category: "Category", heading: "My TV Shows", counter: "0 Shows")
                     }
                     .padding(.bottom, 24)
