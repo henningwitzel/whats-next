@@ -48,6 +48,9 @@
 		2EFBDD8A23806BD600F3CAA0 /* FormTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFBDD8923806BD600F3CAA0 /* FormTestView.swift */; };
 		2EFBDD8B23806BD600F3CAA0 /* FormTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFBDD8923806BD600F3CAA0 /* FormTestView.swift */; };
 		2EFBDD8C23806BD600F3CAA0 /* FormTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFBDD8923806BD600F3CAA0 /* FormTestView.swift */; };
+		2EFBDD8E23808A5500F3CAA0 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFBDD8D23808A5500F3CAA0 /* SettingsView.swift */; };
+		2EFBDD8F23808A5500F3CAA0 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFBDD8D23808A5500F3CAA0 /* SettingsView.swift */; };
+		2EFBDD9023808A5500F3CAA0 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFBDD8D23808A5500F3CAA0 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,7 +71,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2E8ACBE023805BDC00790FA8 /* Whatx Next App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Whatx Next App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E8ACBE023805BDC00790FA8 /* Whats Next.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Whats Next.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E8ACBE323805BDC00790FA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E8ACBE523805BDC00790FA8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2E8ACBE723805BDC00790FA8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,6 +98,7 @@
 		2EFBDD7D238064B300F3CAA0 /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
 		2EFBDD852380694D00F3CAA0 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		2EFBDD8923806BD600F3CAA0 /* FormTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTestView.swift; sourceTree = "<group>"; };
+		2EFBDD8D23808A5500F3CAA0 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +129,7 @@
 		2E8ACBD723805BDB00790FA8 = {
 			isa = PBXGroup;
 			children = (
+				2EFBDD8D23808A5500F3CAA0 /* SettingsView.swift */,
 				2EFBDD5C238060AD00F3CAA0 /* View */,
 				2EFBDD5B238060A400F3CAA0 /* Model */,
 				2EFBDD582380603A00F3CAA0 /* Controller */,
@@ -138,7 +143,7 @@
 		2E8ACBE123805BDC00790FA8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2E8ACBE023805BDC00790FA8 /* Whatx Next App.app */,
+				2E8ACBE023805BDC00790FA8 /* Whats Next.app */,
 				2E8ACBF623805BDD00790FA8 /* Whatx Next AppTests.xctest */,
 				2E8ACC0123805BDD00790FA8 /* Whatx Next AppUITests.xctest */,
 			);
@@ -236,7 +241,7 @@
 			);
 			name = "Whatx Next App";
 			productName = "Whatx Next App";
-			productReference = 2E8ACBE023805BDC00790FA8 /* Whatx Next App.app */;
+			productReference = 2E8ACBE023805BDC00790FA8 /* Whats Next.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2E8ACBF523805BDD00790FA8 /* Whatx Next AppTests */ = {
@@ -355,6 +360,7 @@
 				2EFBDD622380613E00F3CAA0 /* CardView.swift in Sources */,
 				2EFBDD5A2380605100F3CAA0 /* NetworkManager.swift in Sources */,
 				2EFBDD862380694D00F3CAA0 /* AboutView.swift in Sources */,
+				2EFBDD8E23808A5500F3CAA0 /* SettingsView.swift in Sources */,
 				2EFBDD712380615000F3CAA0 /* RestaurantsListView.swift in Sources */,
 				2E8ACBE423805BDC00790FA8 /* AppDelegate.swift in Sources */,
 				2E8ACBE623805BDC00790FA8 /* SceneDelegate.swift in Sources */,
@@ -382,6 +388,7 @@
 				2EFBDD8B23806BD600F3CAA0 /* FormTestView.swift in Sources */,
 				2EFBDD632380613E00F3CAA0 /* CardView.swift in Sources */,
 				2EFBDD722380615000F3CAA0 /* RestaurantsListView.swift in Sources */,
+				2EFBDD8F23808A5500F3CAA0 /* SettingsView.swift in Sources */,
 				2EFBDD752380615000F3CAA0 /* MealRowView.swift in Sources */,
 				2E8ACBFB23805BDD00790FA8 /* Whatx_Next_AppTests.swift in Sources */,
 			);
@@ -400,6 +407,7 @@
 				2EFBDD8C23806BD600F3CAA0 /* FormTestView.swift in Sources */,
 				2EFBDD642380613E00F3CAA0 /* CardView.swift in Sources */,
 				2EFBDD732380615000F3CAA0 /* RestaurantsListView.swift in Sources */,
+				2EFBDD9023808A5500F3CAA0 /* SettingsView.swift in Sources */,
 				2EFBDD762380615000F3CAA0 /* MealRowView.swift in Sources */,
 				2E8ACC0623805BDD00790FA8 /* Whatx_Next_AppUITests.swift in Sources */,
 			);
@@ -559,8 +567,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.firenning.Whatx-Next-App";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Whats Next";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -579,8 +588,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.firenning.Whatx-Next-App";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Whats Next";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

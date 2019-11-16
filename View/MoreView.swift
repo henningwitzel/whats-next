@@ -19,7 +19,7 @@ struct MoreView: View {
                     {
                         Text("Forms")
                     }
-                    NavigationLink(destination: AboutView())
+                    NavigationLink(destination: SettingsView())
                     {
                         Text("Settings")
                     }
@@ -28,7 +28,7 @@ struct MoreView: View {
                 Section() {
                     NavigationLink(destination: AboutView())
                     {
-                        Text("About the App")
+                        Text("About The App")
                     }
                 }
             }
