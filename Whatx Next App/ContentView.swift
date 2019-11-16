@@ -71,6 +71,14 @@ struct ContentView: View {
                     Text("Categories")
                 }
             }
+           
+            MoreView()
+            .tabItem {
+               VStack {
+                    Image(systemName: "ellipsis")
+                    Text("More")
+                }
+            }
         }
     }
 }

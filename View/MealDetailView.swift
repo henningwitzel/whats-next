@@ -35,7 +35,8 @@ struct MealDetailView: View {
                     .font(.body)
                     .padding(.horizontal, 16)
                     .padding(.bottom, 8)
-                        
+                       
+                
                 VStack(alignment: .leading)
                 {
                     VStack(alignment: .leading)
