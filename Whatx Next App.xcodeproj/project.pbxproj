@@ -15,6 +15,30 @@
 		2E8ACBF023805BDD00790FA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E8ACBEE23805BDD00790FA8 /* LaunchScreen.storyboard */; };
 		2E8ACBFB23805BDD00790FA8 /* Whatx_Next_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8ACBFA23805BDD00790FA8 /* Whatx_Next_AppTests.swift */; };
 		2E8ACC0623805BDD00790FA8 /* Whatx_Next_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8ACC0523805BDD00790FA8 /* Whatx_Next_AppUITests.swift */; };
+		2EFBDD5A2380605100F3CAA0 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFBDD592380605100F3CAA0 /* NetworkManager.swift */; };
+		2EFBDD5E238060D600F3CAA0 /* ImageLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFBDD5D238060D600F3CAA0 /* ImageLoaderView.swift */; };
+		2EFBDD602380611600F3CAA0 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFBDD5F2380611600F3CAA0 /* Meal.swift */; };
+		2EFBDD622380613E00F3CAA0 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFBDD612380613E00F3CAA0 /* CardView.swift */; };
+		2EFBDD632380613E00F3CAA0 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFBDD612380613E00F3CAA0 /* CardView.swift */; };
+		2EFBDD642380613E00F3CAA0 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFBDD612380613E00F3CAA0 /* CardView.swift */; };
+		2EFBDD6B2380615000F3CAA0 /* MealDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFBDD652380614F00F3CAA0 /* MealDetailView.swift */; };
+		2EFBDD6C2380615000F3CAA0 /* MealDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFBDD652380614F00F3CAA0 /* MealDetailView.swift */; };
+		2EFBDD6D2380615000F3CAA0 /* MealDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFBDD652380614F00F3CAA0 /* MealDetailView.swift */; };
+		2EFBDD6E2380615000F3CAA0 /* MoviesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFBDD662380614F00F3CAA0 /* MoviesListView.swift */; };
+		2EFBDD6F2380615000F3CAA0 /* MoviesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFBDD662380614F00F3CAA0 /* MoviesListView.swift */; };
+		2EFBDD702380615000F3CAA0 /* MoviesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFBDD662380614F00F3CAA0 /* MoviesListView.swift */; };
+		2EFBDD712380615000F3CAA0 /* RestaurantsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFBDD672380614F00F3CAA0 /* RestaurantsListView.swift */; };
+		2EFBDD722380615000F3CAA0 /* RestaurantsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFBDD672380614F00F3CAA0 /* RestaurantsListView.swift */; };
+		2EFBDD732380615000F3CAA0 /* RestaurantsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFBDD672380614F00F3CAA0 /* RestaurantsListView.swift */; };
+		2EFBDD742380615000F3CAA0 /* MealRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFBDD682380615000F3CAA0 /* MealRowView.swift */; };
+		2EFBDD752380615000F3CAA0 /* MealRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFBDD682380615000F3CAA0 /* MealRowView.swift */; };
+		2EFBDD762380615000F3CAA0 /* MealRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFBDD682380615000F3CAA0 /* MealRowView.swift */; };
+		2EFBDD772380615000F3CAA0 /* TVShowsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFBDD692380615000F3CAA0 /* TVShowsListView.swift */; };
+		2EFBDD782380615000F3CAA0 /* TVShowsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFBDD692380615000F3CAA0 /* TVShowsListView.swift */; };
+		2EFBDD792380615000F3CAA0 /* TVShowsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFBDD692380615000F3CAA0 /* TVShowsListView.swift */; };
+		2EFBDD7A2380615000F3CAA0 /* MealListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFBDD6A2380615000F3CAA0 /* MealListView.swift */; };
+		2EFBDD7B2380615000F3CAA0 /* MealListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFBDD6A2380615000F3CAA0 /* MealListView.swift */; };
+		2EFBDD7C2380615000F3CAA0 /* MealListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFBDD6A2380615000F3CAA0 /* MealListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +73,16 @@
 		2E8ACC0123805BDD00790FA8 /* Whatx Next AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Whatx Next AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E8ACC0523805BDD00790FA8 /* Whatx_Next_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Whatx_Next_AppUITests.swift; sourceTree = "<group>"; };
 		2E8ACC0723805BDD00790FA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EFBDD592380605100F3CAA0 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		2EFBDD5D238060D600F3CAA0 /* ImageLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoaderView.swift; sourceTree = "<group>"; };
+		2EFBDD5F2380611600F3CAA0 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		2EFBDD612380613E00F3CAA0 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		2EFBDD652380614F00F3CAA0 /* MealDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealDetailView.swift; sourceTree = "<group>"; };
+		2EFBDD662380614F00F3CAA0 /* MoviesListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesListView.swift; sourceTree = "<group>"; };
+		2EFBDD672380614F00F3CAA0 /* RestaurantsListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantsListView.swift; sourceTree = "<group>"; };
+		2EFBDD682380615000F3CAA0 /* MealRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealRowView.swift; sourceTree = "<group>"; };
+		2EFBDD692380615000F3CAA0 /* TVShowsListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVShowsListView.swift; sourceTree = "<group>"; };
+		2EFBDD6A2380615000F3CAA0 /* MealListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +113,9 @@
 		2E8ACBD723805BDB00790FA8 = {
 			isa = PBXGroup;
 			children = (
+				2EFBDD5C238060AD00F3CAA0 /* View */,
+				2EFBDD5B238060A400F3CAA0 /* Model */,
+				2EFBDD582380603A00F3CAA0 /* Controller */,
 				2E8ACBE223805BDC00790FA8 /* Whatx Next App */,
 				2E8ACBF923805BDD00790FA8 /* Whatx Next AppTests */,
 				2E8ACC0423805BDD00790FA8 /* Whatx Next AppUITests */,
@@ -134,6 +171,37 @@
 				2E8ACC0723805BDD00790FA8 /* Info.plist */,
 			);
 			path = "Whatx Next AppUITests";
+			sourceTree = "<group>";
+		};
+		2EFBDD582380603A00F3CAA0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2EFBDD5D238060D600F3CAA0 /* ImageLoaderView.swift */,
+				2EFBDD592380605100F3CAA0 /* NetworkManager.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2EFBDD5B238060A400F3CAA0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2EFBDD5F2380611600F3CAA0 /* Meal.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2EFBDD5C238060AD00F3CAA0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2EFBDD652380614F00F3CAA0 /* MealDetailView.swift */,
+				2EFBDD6A2380615000F3CAA0 /* MealListView.swift */,
+				2EFBDD682380615000F3CAA0 /* MealRowView.swift */,
+				2EFBDD662380614F00F3CAA0 /* MoviesListView.swift */,
+				2EFBDD672380614F00F3CAA0 /* RestaurantsListView.swift */,
+				2EFBDD692380615000F3CAA0 /* TVShowsListView.swift */,
+				2EFBDD612380613E00F3CAA0 /* CardView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,9 +335,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EFBDD6E2380615000F3CAA0 /* MoviesListView.swift in Sources */,
+				2EFBDD772380615000F3CAA0 /* TVShowsListView.swift in Sources */,
+				2EFBDD622380613E00F3CAA0 /* CardView.swift in Sources */,
+				2EFBDD5A2380605100F3CAA0 /* NetworkManager.swift in Sources */,
+				2EFBDD712380615000F3CAA0 /* RestaurantsListView.swift in Sources */,
 				2E8ACBE423805BDC00790FA8 /* AppDelegate.swift in Sources */,
 				2E8ACBE623805BDC00790FA8 /* SceneDelegate.swift in Sources */,
+				2EFBDD6B2380615000F3CAA0 /* MealDetailView.swift in Sources */,
+				2EFBDD7A2380615000F3CAA0 /* MealListView.swift in Sources */,
+				2EFBDD5E238060D600F3CAA0 /* ImageLoaderView.swift in Sources */,
+				2EFBDD602380611600F3CAA0 /* Meal.swift in Sources */,
 				2E8ACBE823805BDC00790FA8 /* ContentView.swift in Sources */,
+				2EFBDD742380615000F3CAA0 /* MealRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +355,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EFBDD6C2380615000F3CAA0 /* MealDetailView.swift in Sources */,
+				2EFBDD782380615000F3CAA0 /* TVShowsListView.swift in Sources */,
+				2EFBDD6F2380615000F3CAA0 /* MoviesListView.swift in Sources */,
+				2EFBDD7B2380615000F3CAA0 /* MealListView.swift in Sources */,
+				2EFBDD632380613E00F3CAA0 /* CardView.swift in Sources */,
+				2EFBDD722380615000F3CAA0 /* RestaurantsListView.swift in Sources */,
+				2EFBDD752380615000F3CAA0 /* MealRowView.swift in Sources */,
 				2E8ACBFB23805BDD00790FA8 /* Whatx_Next_AppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +370,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EFBDD6D2380615000F3CAA0 /* MealDetailView.swift in Sources */,
+				2EFBDD792380615000F3CAA0 /* TVShowsListView.swift in Sources */,
+				2EFBDD702380615000F3CAA0 /* MoviesListView.swift in Sources */,
+				2EFBDD7C2380615000F3CAA0 /* MealListView.swift in Sources */,
+				2EFBDD642380613E00F3CAA0 /* CardView.swift in Sources */,
+				2EFBDD732380615000F3CAA0 /* RestaurantsListView.swift in Sources */,
+				2EFBDD762380615000F3CAA0 /* MealRowView.swift in Sources */,
 				2E8ACC0623805BDD00790FA8 /* Whatx_Next_AppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
