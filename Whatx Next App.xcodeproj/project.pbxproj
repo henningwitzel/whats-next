@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E8ACBE423805BDC00790FA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8ACBE323805BDC00790FA8 /* AppDelegate.swift */; };
+		2E8ACBE623805BDC00790FA8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8ACBE523805BDC00790FA8 /* SceneDelegate.swift */; };
+		2E8ACBE823805BDC00790FA8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8ACBE723805BDC00790FA8 /* ContentView.swift */; };
+		2E8ACBEA23805BDD00790FA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E8ACBE923805BDD00790FA8 /* Assets.xcassets */; };
+		2E8ACBED23805BDD00790FA8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E8ACBEC23805BDD00790FA8 /* Preview Assets.xcassets */; };
+		2E8ACBF023805BDD00790FA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E8ACBEE23805BDD00790FA8 /* LaunchScreen.storyboard */; };
+		2E8ACBFB23805BDD00790FA8 /* Whatx_Next_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8ACBFA23805BDD00790FA8 /* Whatx_Next_AppTests.swift */; };
+		2E8ACC0623805BDD00790FA8 /* Whatx_Next_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8ACC0523805BDD00790FA8 /* Whatx_Next_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E8ACBF723805BDD00790FA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E8ACBD823805BDB00790FA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E8ACBDF23805BDB00790FA8;
+			remoteInfo = "Whatx Next App";
+		};
+		2E8ACC0223805BDD00790FA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E8ACBD823805BDB00790FA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E8ACBDF23805BDB00790FA8;
+			remoteInfo = "Whatx Next App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E8ACBE023805BDC00790FA8 /* Whatx Next App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Whatx Next App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E8ACBE323805BDC00790FA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2E8ACBE523805BDC00790FA8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2E8ACBE723805BDC00790FA8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2E8ACBE923805BDD00790FA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E8ACBEC23805BDD00790FA8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2E8ACBEF23805BDD00790FA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E8ACBF123805BDD00790FA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E8ACBF623805BDD00790FA8 /* Whatx Next AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Whatx Next AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E8ACBFA23805BDD00790FA8 /* Whatx_Next_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Whatx_Next_AppTests.swift; sourceTree = "<group>"; };
+		2E8ACBFC23805BDD00790FA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E8ACC0123805BDD00790FA8 /* Whatx Next AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Whatx Next AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E8ACC0523805BDD00790FA8 /* Whatx_Next_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Whatx_Next_AppUITests.swift; sourceTree = "<group>"; };
+		2E8ACC0723805BDD00790FA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E8ACBDD23805BDB00790FA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E8ACBF323805BDD00790FA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E8ACBFE23805BDD00790FA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E8ACBD723805BDB00790FA8 = {
+			isa = PBXGroup;
+			children = (
+				2E8ACBE223805BDC00790FA8 /* Whatx Next App */,
+				2E8ACBF923805BDD00790FA8 /* Whatx Next AppTests */,
+				2E8ACC0423805BDD00790FA8 /* Whatx Next AppUITests */,
+				2E8ACBE123805BDC00790FA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E8ACBE123805BDC00790FA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E8ACBE023805BDC00790FA8 /* Whatx Next App.app */,
+				2E8ACBF623805BDD00790FA8 /* Whatx Next AppTests.xctest */,
+				2E8ACC0123805BDD00790FA8 /* Whatx Next AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E8ACBE223805BDC00790FA8 /* Whatx Next App */ = {
+			isa = PBXGroup;
+			children = (
+				2E8ACBE323805BDC00790FA8 /* AppDelegate.swift */,
+				2E8ACBE523805BDC00790FA8 /* SceneDelegate.swift */,
+				2E8ACBE723805BDC00790FA8 /* ContentView.swift */,
+				2E8ACBE923805BDD00790FA8 /* Assets.xcassets */,
+				2E8ACBEE23805BDD00790FA8 /* LaunchScreen.storyboard */,
+				2E8ACBF123805BDD00790FA8 /* Info.plist */,
+				2E8ACBEB23805BDD00790FA8 /* Preview Content */,
+			);
+			path = "Whatx Next App";
+			sourceTree = "<group>";
+		};
+		2E8ACBEB23805BDD00790FA8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2E8ACBEC23805BDD00790FA8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2E8ACBF923805BDD00790FA8 /* Whatx Next AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E8ACBFA23805BDD00790FA8 /* Whatx_Next_AppTests.swift */,
+				2E8ACBFC23805BDD00790FA8 /* Info.plist */,
+			);
+			path = "Whatx Next AppTests";
+			sourceTree = "<group>";
+		};
+		2E8ACC0423805BDD00790FA8 /* Whatx Next AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2E8ACC0523805BDD00790FA8 /* Whatx_Next_AppUITests.swift */,
+				2E8ACC0723805BDD00790FA8 /* Info.plist */,
+			);
+			path = "Whatx Next AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E8ACBDF23805BDB00790FA8 /* Whatx Next App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E8ACC0A23805BDD00790FA8 /* Build configuration list for PBXNativeTarget "Whatx Next App" */;
+			buildPhases = (
+				2E8ACBDC23805BDB00790FA8 /* Sources */,
+				2E8ACBDD23805BDB00790FA8 /* Frameworks */,
+				2E8ACBDE23805BDB00790FA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Whatx Next App";
+			productName = "Whatx Next App";
+			productReference = 2E8ACBE023805BDC00790FA8 /* Whatx Next App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E8ACBF523805BDD00790FA8 /* Whatx Next AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E8ACC0D23805BDD00790FA8 /* Build configuration list for PBXNativeTarget "Whatx Next AppTests" */;
+			buildPhases = (
+				2E8ACBF223805BDD00790FA8 /* Sources */,
+				2E8ACBF323805BDD00790FA8 /* Frameworks */,
+				2E8ACBF423805BDD00790FA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E8ACBF823805BDD00790FA8 /* PBXTargetDependency */,
+			);
+			name = "Whatx Next AppTests";
+			productName = "Whatx Next AppTests";
+			productReference = 2E8ACBF623805BDD00790FA8 /* Whatx Next AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2E8ACC0023805BDD00790FA8 /* Whatx Next AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E8ACC1023805BDD00790FA8 /* Build configuration list for PBXNativeTarget "Whatx Next AppUITests" */;
+			buildPhases = (
+				2E8ACBFD23805BDD00790FA8 /* Sources */,
+				2E8ACBFE23805BDD00790FA8 /* Frameworks */,
+				2E8ACBFF23805BDD00790FA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E8ACC0323805BDD00790FA8 /* PBXTargetDependency */,
+			);
+			name = "Whatx Next AppUITests";
+			productName = "Whatx Next AppUITests";
+			productReference = 2E8ACC0123805BDD00790FA8 /* Whatx Next AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E8ACBD823805BDB00790FA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Henning Witzel";
+				TargetAttributes = {
+					2E8ACBDF23805BDB00790FA8 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					2E8ACBF523805BDD00790FA8 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 2E8ACBDF23805BDB00790FA8;
+					};
+					2E8ACC0023805BDD00790FA8 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 2E8ACBDF23805BDB00790FA8;
+					};
+				};
+			};
+			buildConfigurationList = 2E8ACBDB23805BDB00790FA8 /* Build configuration list for PBXProject "Whatx Next App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E8ACBD723805BDB00790FA8;
+			productRefGroup = 2E8ACBE123805BDC00790FA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E8ACBDF23805BDB00790FA8 /* Whatx Next App */,
+				2E8ACBF523805BDD00790FA8 /* Whatx Next AppTests */,
+				2E8ACC0023805BDD00790FA8 /* Whatx Next AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E8ACBDE23805BDB00790FA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E8ACBF023805BDD00790FA8 /* LaunchScreen.storyboard in Resources */,
+				2E8ACBED23805BDD00790FA8 /* Preview Assets.xcassets in Resources */,
+				2E8ACBEA23805BDD00790FA8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E8ACBF423805BDD00790FA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E8ACBFF23805BDD00790FA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E8ACBDC23805BDB00790FA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E8ACBE423805BDC00790FA8 /* AppDelegate.swift in Sources */,
+				2E8ACBE623805BDC00790FA8 /* SceneDelegate.swift in Sources */,
+				2E8ACBE823805BDC00790FA8 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E8ACBF223805BDD00790FA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E8ACBFB23805BDD00790FA8 /* Whatx_Next_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E8ACBFD23805BDD00790FA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E8ACC0623805BDD00790FA8 /* Whatx_Next_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E8ACBF823805BDD00790FA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E8ACBDF23805BDB00790FA8 /* Whatx Next App */;
+			targetProxy = 2E8ACBF723805BDD00790FA8 /* PBXContainerItemProxy */;
+		};
+		2E8ACC0323805BDD00790FA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E8ACBDF23805BDB00790FA8 /* Whatx Next App */;
+			targetProxy = 2E8ACC0223805BDD00790FA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2E8ACBEE23805BDD00790FA8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E8ACBEF23805BDD00790FA8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E8ACC0823805BDD00790FA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2E8ACC0923805BDD00790FA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E8ACC0B23805BDD00790FA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Whatx Next App/Preview Content\"";
+				DEVELOPMENT_TEAM = DL954PGGLP;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Whatx Next App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.firenning.Whatx-Next-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E8ACC0C23805BDD00790FA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Whatx Next App/Preview Content\"";
+				DEVELOPMENT_TEAM = DL954PGGLP;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Whatx Next App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.firenning.Whatx-Next-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2E8ACC0E23805BDD00790FA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DL954PGGLP;
+				INFOPLIST_FILE = "Whatx Next AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.firenning.Whatx-Next-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Whatx Next App.app/Whatx Next App";
+			};
+			name = Debug;
+		};
+		2E8ACC0F23805BDD00790FA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DL954PGGLP;
+				INFOPLIST_FILE = "Whatx Next AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.firenning.Whatx-Next-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Whatx Next App.app/Whatx Next App";
+			};
+			name = Release;
+		};
+		2E8ACC1123805BDD00790FA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DL954PGGLP;
+				INFOPLIST_FILE = "Whatx Next AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.firenning.Whatx-Next-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Whatx Next App";
+			};
+			name = Debug;
+		};
+		2E8ACC1223805BDD00790FA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DL954PGGLP;
+				INFOPLIST_FILE = "Whatx Next AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.firenning.Whatx-Next-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Whatx Next App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E8ACBDB23805BDB00790FA8 /* Build configuration list for PBXProject "Whatx Next App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E8ACC0823805BDD00790FA8 /* Debug */,
+				2E8ACC0923805BDD00790FA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E8ACC0A23805BDD00790FA8 /* Build configuration list for PBXNativeTarget "Whatx Next App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E8ACC0B23805BDD00790FA8 /* Debug */,
+				2E8ACC0C23805BDD00790FA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E8ACC0D23805BDD00790FA8 /* Build configuration list for PBXNativeTarget "Whatx Next AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E8ACC0E23805BDD00790FA8 /* Debug */,
+				2E8ACC0F23805BDD00790FA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E8ACC1023805BDD00790FA8 /* Build configuration list for PBXNativeTarget "Whatx Next AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E8ACC1123805BDD00790FA8 /* Debug */,
+				2E8ACC1223805BDD00790FA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E8ACBD823805BDB00790FA8 /* Project object */;
+}
