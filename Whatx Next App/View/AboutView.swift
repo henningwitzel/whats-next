@@ -36,7 +36,7 @@ struct AboutView: View {
                     
                     Spacer()
                     
-                    Text("0.1")
+                    Text("0.1.3")
                         .font(.body)
                         .foregroundColor(.secondary)
                 }

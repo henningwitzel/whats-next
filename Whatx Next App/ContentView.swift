@@ -10,8 +10,7 @@ import SwiftUI
 import Combine
 
 struct ContentView: View {
-   
-    @State private var selection = 0
+       
     @ObservedObject var networkManager : NetworkManager = NetworkManager()
     
     var body: some View {
@@ -79,7 +78,7 @@ struct ContentView: View {
                     Text("More")
                 }
             }
-        }
+        }.edgesIgnoringSafeArea(.top)
     }
 }
 
