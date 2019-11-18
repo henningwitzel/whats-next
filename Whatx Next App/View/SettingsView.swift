@@ -9,9 +9,26 @@
 import SwiftUI
 
 struct SettingsView: View {
+    @ObservedObject var networkManagerProducts: NetworkManagerProducts = NetworkManagerProducts()
+    
     var body: some View {
-        Text("Hello, Settings!")
-    }
+            
+        List(networkManagerProducts.products, id:\.name){ product in
+            HStack
+                {
+            VStack(alignment: .leading){
+                Text(product.name)
+                    .bold()
+                Text(product.description)
+                .foregroundColor(.secondary)
+                }
+            Spacer()
+            Text("$" + product.price)
+            }.padding(.bottom, 8)
+            .padding(.top, 8)
+            
+        }
+        }
 }
 
 struct SettingsView_Previews: PreviewProvider {

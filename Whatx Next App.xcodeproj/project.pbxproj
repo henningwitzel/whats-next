@@ -15,6 +15,8 @@
 		2E8ACBF023805BDD00790FA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E8ACBEE23805BDD00790FA8 /* LaunchScreen.storyboard */; };
 		2E8ACBFB23805BDD00790FA8 /* Whatx_Next_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8ACBFA23805BDD00790FA8 /* Whatx_Next_AppTests.swift */; };
 		2E8ACC0623805BDD00790FA8 /* Whatx_Next_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8ACC0523805BDD00790FA8 /* Whatx_Next_AppUITests.swift */; };
+		2E9AD91A2383311700646226 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9AD9192383311700646226 /* Product.swift */; };
+		2E9AD91C238331DB00646226 /* NetworkManagerProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9AD91B238331DB00646226 /* NetworkManagerProducts.swift */; };
 		2EFBDD5A2380605100F3CAA0 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFBDD592380605100F3CAA0 /* NetworkManager.swift */; };
 		2EFBDD5E238060D600F3CAA0 /* ImageLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFBDD5D238060D600F3CAA0 /* ImageLoaderView.swift */; };
 		2EFBDD602380611600F3CAA0 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFBDD5F2380611600F3CAA0 /* Meal.swift */; };
@@ -85,6 +87,8 @@
 		2E8ACC0123805BDD00790FA8 /* Whatx Next AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Whatx Next AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E8ACC0523805BDD00790FA8 /* Whatx_Next_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Whatx_Next_AppUITests.swift; sourceTree = "<group>"; };
 		2E8ACC0723805BDD00790FA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E9AD9192383311700646226 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		2E9AD91B238331DB00646226 /* NetworkManagerProducts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerProducts.swift; sourceTree = "<group>"; };
 		2EFBDD592380605100F3CAA0 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		2EFBDD5D238060D600F3CAA0 /* ImageLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoaderView.swift; sourceTree = "<group>"; };
 		2EFBDD5F2380611600F3CAA0 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
@@ -194,6 +198,7 @@
 			children = (
 				2EFBDD5D238060D600F3CAA0 /* ImageLoaderView.swift */,
 				2EFBDD592380605100F3CAA0 /* NetworkManager.swift */,
+				2E9AD91B238331DB00646226 /* NetworkManagerProducts.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -202,6 +207,7 @@
 			isa = PBXGroup;
 			children = (
 				2EFBDD5F2380611600F3CAA0 /* Meal.swift */,
+				2E9AD9192383311700646226 /* Product.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -358,6 +364,7 @@
 				2EFBDD6E2380615000F3CAA0 /* MoviesListView.swift in Sources */,
 				2EFBDD772380615000F3CAA0 /* TVShowsListView.swift in Sources */,
 				2EFBDD622380613E00F3CAA0 /* CardView.swift in Sources */,
+				2E9AD91C238331DB00646226 /* NetworkManagerProducts.swift in Sources */,
 				2EFBDD5A2380605100F3CAA0 /* NetworkManager.swift in Sources */,
 				2EFBDD862380694D00F3CAA0 /* AboutView.swift in Sources */,
 				2EFBDD8E23808A5500F3CAA0 /* SettingsView.swift in Sources */,
@@ -366,6 +373,7 @@
 				2E8ACBE623805BDC00790FA8 /* SceneDelegate.swift in Sources */,
 				2EFBDD7E238064B300F3CAA0 /* MoreView.swift in Sources */,
 				2EFBDD6B2380615000F3CAA0 /* MealDetailView.swift in Sources */,
+				2E9AD91A2383311700646226 /* Product.swift in Sources */,
 				2EFBDD7A2380615000F3CAA0 /* MealListView.swift in Sources */,
 				2EFBDD5E238060D600F3CAA0 /* ImageLoaderView.swift in Sources */,
 				2EFBDD8A23806BD600F3CAA0 /* FormTestView.swift in Sources */,

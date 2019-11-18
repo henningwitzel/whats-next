@@ -14,9 +14,8 @@ class NetworkManager: ObservableObject {
     @Published var meals:[Meal] = [Meal]()
         
     func getAllMeals() {
-        //guard let url = URL(string: "https://api.myjson.com/bins/6f9k4") else { return }
         guard let url = URL(string: "https://api.myjson.com/bins/u6fwq") else { return }
-        
+            
         URLSession.shared.dataTask(with: url) { (data, response, error) in
             do {
                 let meals = try JSONDecoder().decode([Meal].self, from: data!)

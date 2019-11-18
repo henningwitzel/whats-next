@@ -14,14 +14,14 @@ struct MoreView: View {
         NavigationView
         {
             List {
-                Section(header: Text("Developer Menu")) {
+                Section(header: Text("API")) {
                     NavigationLink(destination: FormTestView())
                     {
                         Text("Forms")
                     }
                     NavigationLink(destination: SettingsView())
                     {
-                        Text("Settings")
+                        Text("Products")
                     }
                 }
 
