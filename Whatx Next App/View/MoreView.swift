@@ -17,11 +17,11 @@ struct MoreView: View {
                 Section(header: Text("API")) {
                     NavigationLink(destination: FormTestView())
                     {
-                        Text("Forms")
+                        Text("Add a new Product")
                     }
                     NavigationLink(destination: SettingsView())
                     {
-                        Text("Products")
+                        Text("List all Products")
                     }
                 }
 
