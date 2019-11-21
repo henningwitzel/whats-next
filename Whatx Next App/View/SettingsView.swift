@@ -26,8 +26,14 @@ struct SettingsView: View {
             Text("$" + product.price)
             }.padding(.bottom, 8)
             .padding(.top, 8)
-            
         }
+        .navigationBarItems(
+           trailing:
+               Button(
+                action: { self.networkManagerProducts.getAllProducts() },
+                   label: { Text("Reload") }
+               )
+       )
         }
 }
 
