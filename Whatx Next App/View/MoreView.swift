@@ -21,7 +21,11 @@ struct MoreView: View {
                     }
                     NavigationLink(destination: SettingsView())
                     {
-                        Text("List all Products")
+                        Text("All Products")
+                    }
+                    NavigationLink(destination: ModalTestView())
+                    {
+                       Text("Modal")
                     }
                 }
 

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E5E661B238F18920010A04A /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5E661A238F18920010A04A /* ModalView.swift */; };
+		2E5E661D238F18FD0010A04A /* ModalTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5E661C238F18FD0010A04A /* ModalTestView.swift */; };
+		2E5E661F238F1BBD0010A04A /* ModalAddProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5E661E238F1BBD0010A04A /* ModalAddProductView.swift */; };
 		2E8ACBE423805BDC00790FA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8ACBE323805BDC00790FA8 /* AppDelegate.swift */; };
 		2E8ACBE623805BDC00790FA8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8ACBE523805BDC00790FA8 /* SceneDelegate.swift */; };
 		2E8ACBE823805BDC00790FA8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8ACBE723805BDC00790FA8 /* ContentView.swift */; };
@@ -73,6 +76,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E5E661A238F18920010A04A /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
+		2E5E661C238F18FD0010A04A /* ModalTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalTestView.swift; sourceTree = "<group>"; };
+		2E5E661E238F1BBD0010A04A /* ModalAddProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalAddProductView.swift; sourceTree = "<group>"; };
 		2E8ACBE023805BDC00790FA8 /* Whats Next.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Whats Next.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E8ACBE323805BDC00790FA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E8ACBE523805BDC00790FA8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -163,6 +169,7 @@
 				2E8ACBEE23805BDD00790FA8 /* LaunchScreen.storyboard */,
 				2E8ACBF123805BDD00790FA8 /* Info.plist */,
 				2E8ACBEB23805BDD00790FA8 /* Preview Content */,
+				2E5E661E238F1BBD0010A04A /* ModalAddProductView.swift */,
 			);
 			path = "Whatx Next App";
 			sourceTree = "<group>";
@@ -226,6 +233,8 @@
 				2EFBDD852380694D00F3CAA0 /* AboutView.swift */,
 				2EFBDD8923806BD600F3CAA0 /* FormTestView.swift */,
 				2EFBDD8D23808A5500F3CAA0 /* SettingsView.swift */,
+				2E5E661A238F18920010A04A /* ModalView.swift */,
+				2E5E661C238F18FD0010A04A /* ModalTestView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -375,11 +384,14 @@
 				2EFBDD6B2380615000F3CAA0 /* MealDetailView.swift in Sources */,
 				2E9AD91A2383311700646226 /* Product.swift in Sources */,
 				2EFBDD7A2380615000F3CAA0 /* MealListView.swift in Sources */,
+				2E5E661F238F1BBD0010A04A /* ModalAddProductView.swift in Sources */,
+				2E5E661B238F18920010A04A /* ModalView.swift in Sources */,
 				2EFBDD5E238060D600F3CAA0 /* ImageLoaderView.swift in Sources */,
 				2EFBDD8A23806BD600F3CAA0 /* FormTestView.swift in Sources */,
 				2EFBDD602380611600F3CAA0 /* Meal.swift in Sources */,
 				2E8ACBE823805BDC00790FA8 /* ContentView.swift in Sources */,
 				2EFBDD742380615000F3CAA0 /* MealRowView.swift in Sources */,
+				2E5E661D238F18FD0010A04A /* ModalTestView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
