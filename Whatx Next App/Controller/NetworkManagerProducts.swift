@@ -13,7 +13,7 @@ class NetworkManagerProducts: ObservableObject {
     @Published var products:[Product] = [Product]()
         
     func getAllProducts() {
-        guard let url = URL(string: "https://whatsnext.henning-witzel.de/api/product/read.php") else { return }
+        guard let url = URL(string: "https://whatsnext.henning-witzel.de/test-api/product/read.php") else { return }
         
         URLSession.shared.dataTask(with: url) { (data, response, error) in
             do {
